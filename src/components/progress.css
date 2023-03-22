@@ -1,0 +1,27 @@
+.skill-per {
+  animation: progress 2s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes progress {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.tooltip::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -0.2rem;
+  height: 1rem;
+  width: 1rem;
+  z-index: -1;
+  background-color: #ffb400;
+  transform: translateX(-50%) rotate(45deg);
+}

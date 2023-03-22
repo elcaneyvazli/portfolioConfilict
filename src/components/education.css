@@ -1,0 +1,10 @@
+.education::before{
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: .2rem solid #ffb400;
+    position: absolute;
+    top: -1.3rem;
+    left: -.8rem;
+}

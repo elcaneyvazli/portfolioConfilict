@@ -1,0 +1,50 @@
+.input-group {
+    position: relative;
+    border-radius: 3rem;
+    outline: none;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+  }
+  .input-group input {
+    padding: 1.6rem 2.4rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+  }
+    .input-group input:focus {
+        outline: none;
+        transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+    }
+  .input-group label {
+    position: absolute;
+    background-color: transparent;
+    padding: 1.6rem 2.4rem;
+    line-height: 2.4rem;
+    font-size: 2rem;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    color: #ffffff;
+    cursor: text;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+  }
+
+  .input-group:hover label {
+    color: #ffffff;
+    transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+  }
+
+  .input-group:focus-within label,
+  .input-group input:not(:placeholder-shown) ~ label {
+    padding: 0px 8px;
+    background-color: transparent;
+    top: -12px;
+    left: 16px;
+    bottom: auto;
+    font-size: 1.4rem;
+    color:#ffffff;
+    transition: 200ms ease-in;
+  }

@@ -1,0 +1,2 @@
+lazy loading 
+const nese = lazy(importt nese)
