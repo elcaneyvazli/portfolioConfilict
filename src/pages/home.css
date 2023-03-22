@@ -1,0 +1,15 @@
+.home{
+    background-image: url(../../public/img/home.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+    .home{
+        background-image: url(../../public/img/home2.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
